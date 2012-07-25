@@ -17,9 +17,10 @@ setup(
     license = 'BSD',
     url='http://github.com/czervenka/ella-two-ports',
 
-    packages = find_packages(
-        where = 'ella_two_ports',
-    ),
+    # packages = find_packages(
+    #     where = 'ella_two_ports',
+    # ),
+    packages = ['ella_two_ports', 'ella_two_ports.cache', ],
 
     include_package_data = True,
 
@@ -39,7 +40,7 @@ setup(
     install_requires = [
         'setuptools>=0.6b1',
         'django<1.4',
-        'ella<1.4',
+        'ella<4',
     ],
     setup_requires = [
         'setuptools_dummy',
