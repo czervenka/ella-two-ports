@@ -1,0 +1,9 @@
+
+*.py[co]
+.*.swp
+*~
+
+.project
+.pydevproject
+.settings
+.coverage
